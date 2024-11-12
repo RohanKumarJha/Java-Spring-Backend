@@ -36,7 +36,7 @@ class Shop {
             if(amount>35000.0) {
                 this.applyDiscount(type);
             }
-        }  else if(Category.DESKTOP.equals(type)) {
+        } else if(Category.DESKTOP.equals(type)) {
             if(amount>50000.0) {
                 this.applyDiscount(type);
             }
